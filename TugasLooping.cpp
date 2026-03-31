@@ -99,3 +99,10 @@ void tampilDeretFibonacci() {
     }
     cout << endl;
 }
+
+// =======================
+// Menu
+// =======================
+void tampilMenu(){
+    
+}
