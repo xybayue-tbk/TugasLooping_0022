@@ -123,7 +123,13 @@ int main(){
             case 1:
                 inputAngka();
                 tampilHasilPrima();
-                tampilDeretPrima(); // fitur baru
+                tampilDeretPrima();
+                break;
+
+            case 2:
+                inputAngka();
+                tampilHasilFibonacci();
+                tampilDeretFibonacci(); 
                 break;
         }
 
