@@ -82,3 +82,10 @@ void tampilHasilFibonacci() {
     else
         cout << angka << " bukan Fibonacci\n";
 }
+
+// =======================
+// Tampilkan deret Fibonacci
+// =======================
+void tampilDeretFibonacci() {
+    cout << "Deret Fibonacci sampai " << angka << ":\n";
+}
