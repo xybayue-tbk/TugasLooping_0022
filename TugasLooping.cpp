@@ -70,3 +70,10 @@ void tampilDeretPrima() {
     }
     cout << endl;
 }
+
+// =======================
+// Tampilkan hasil Fibonacci
+// =======================
+void tampilHasilFibonacci() {
+    cout << "\n--- CEK FIBONACCI ---\n";
+}
