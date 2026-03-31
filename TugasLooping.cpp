@@ -56,9 +56,17 @@ void tampilHasilPrima() {
         cout << angka << " bukan bilangan prima\n";
 }
 
-// =======================
 // Tampilkan deret prima
 // =======================
 void tampilDeretPrima() {
     cout << "Bilangan prima dari 1 sampai " << angka << ":\n";
+
+    int i = 2;
+    while (i <= angka) {
+        if (isPrima(i)) {
+            cout << i << " ";
+        }
+        i++;
+    }
+    cout << endl;
 }
