@@ -43,3 +43,10 @@ void inputAngka() {
     cout << "\nMasukkan angka: ";
     cin >> angka;
 }
+
+// =======================
+// Tampilkan hasil prima
+// =======================
+void tampilHasilPrima() {
+    cout << "\n--- CEK PRIMA ---\n";
+}
