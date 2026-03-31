@@ -115,6 +115,8 @@ int main(){
     bool jalan = true;
 
     while (jalan){
+        tampilMenu();
+        cin >> pilihan;
 
     }
 }
