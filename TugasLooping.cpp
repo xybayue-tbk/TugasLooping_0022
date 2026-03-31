@@ -136,6 +136,9 @@ int main(){
                 cout << "Program selesai.\n";
                 jalan = false;
                 break;
+            
+            default:
+                cout << "Pilihan tidak valid!\n";
         } 
 
     }
