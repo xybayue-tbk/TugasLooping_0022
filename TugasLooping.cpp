@@ -55,3 +55,10 @@ void tampilHasilPrima() {
     else
         cout << angka << " bukan bilangan prima\n";
 }
+
+// =======================
+// Tampilkan deret prima
+// =======================
+void tampilDeretPrima() {
+    cout << "Bilangan prima dari 1 sampai " << angka << ":\n";
+}
