@@ -49,4 +49,9 @@ void inputAngka() {
 // =======================
 void tampilHasilPrima() {
     cout << "\n--- CEK PRIMA ---\n";
+
+    if (isPrima(angka))
+        cout << angka << " adalah bilangan PRIMA\n";
+    else
+        cout << angka << " bukan bilangan prima\n";
 }
