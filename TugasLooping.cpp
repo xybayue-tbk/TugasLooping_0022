@@ -88,4 +88,14 @@ void tampilHasilFibonacci() {
 // =======================
 void tampilDeretFibonacci() {
     cout << "Deret Fibonacci sampai " << angka << ":\n";
+
+    int a = 0, b = 1, c = 0;
+
+    while (c <= angka) {
+        cout << c << " ";
+        c = a + b;
+        a = b;
+        b = c;
+    }
+    cout << endl;
 }
