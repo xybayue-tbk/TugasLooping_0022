@@ -35,3 +35,11 @@ bool isFibonacci(int n) {
     }
     return false;
 }
+
+// =======================
+// Prosedur Input
+// =======================
+void inputAngka() {
+    cout << "\nMasukkan angka: ";
+    cin >> angka;
+}
