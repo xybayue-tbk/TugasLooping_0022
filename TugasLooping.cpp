@@ -119,7 +119,12 @@ int main(){
         cin >> pilihan;
 
         switch (pilihan){
-            
+
+            case 1:
+                inputAngka();
+                tampilHasilPrima();
+                tampilDeretPrima(); // fitur baru
+                break;
         }
 
     }
