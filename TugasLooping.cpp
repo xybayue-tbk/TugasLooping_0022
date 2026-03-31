@@ -76,4 +76,9 @@ void tampilDeretPrima() {
 // =======================
 void tampilHasilFibonacci() {
     cout << "\n--- CEK FIBONACCI ---\n";
+
+    if (isFibonacci(angka))
+        cout << angka << " termasuk Fibonacci\n";
+    else
+        cout << angka << " bukan Fibonacci\n";
 }
