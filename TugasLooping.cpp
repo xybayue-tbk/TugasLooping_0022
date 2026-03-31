@@ -131,7 +131,12 @@ int main(){
                 tampilHasilFibonacci();
                 tampilDeretFibonacci(); 
                 break;
-        }
+
+            case 0:
+                cout << "Program selesai.\n";
+                jalan = false;
+                break;
+        } 
 
     }
 }
