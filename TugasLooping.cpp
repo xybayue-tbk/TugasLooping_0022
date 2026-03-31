@@ -56,6 +56,7 @@ void tampilHasilPrima() {
         cout << angka << " bukan bilangan prima\n";
 }
 
+// =======================
 // Tampilkan deret prima
 // =======================
 void tampilDeretPrima() {
@@ -111,15 +112,17 @@ void tampilMenu() {
     cout << "Pilih: ";
 }
 
-int main(){
+// =======================
+// Main
+// =======================
+int main() {
     bool jalan = true;
 
-    while (jalan){
+    while (jalan) {
         tampilMenu();
         cin >> pilihan;
 
-        switch (pilihan){
-
+        switch (pilihan) {
             case 1:
                 inputAngka();
                 tampilHasilPrima();
@@ -129,17 +132,17 @@ int main(){
             case 2:
                 inputAngka();
                 tampilHasilFibonacci();
-                tampilDeretFibonacci(); 
+                tampilDeretFibonacci();
                 break;
 
             case 0:
                 cout << "Program selesai.\n";
                 jalan = false;
                 break;
-            
+
             default:
                 cout << "Pilihan tidak valid!\n";
-        } 
+        }
     }
 
     return 0;
