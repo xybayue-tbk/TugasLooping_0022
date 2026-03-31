@@ -113,4 +113,8 @@ void tampilMenu() {
 
 int main(){
     bool jalan = true;
+
+    while (jalan){
+
+    }
 }
